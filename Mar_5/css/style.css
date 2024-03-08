@@ -1,0 +1,75 @@
+body{
+    background-color:black;
+    color: blueviolet;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+}
+
+h3{
+    color:aquamarine;
+}
+
+.clASS{
+    color:white
+}
+.social_studies{
+    color:saddlebrown
+}
+.sex_ed{
+    color:pink
+}
+
+#McLovin{
+    border:blue solid 2px;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+#main{
+    border:white solid 2px;
+    width:800px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.two_columns{
+display:flex;
+}
+
+.gauche{
+border:white solid 2px;
+width:50%;
+padding-left: 10px;
+}
+
+.droit{
+border:white solid 2px;
+width:50%;
+padding-left: 10px;
+}
+
+#saucy img{
+    width: 100%;
+}
+
+#feets{
+    text-align:center;
+    margin-bottom: 50px;
+}
+
+#home a{
+    position:fixed;
+    top: 10px;
+    right: 50px;
+    text-decoration: none;
+    border: red solid 5px;
+    padding: 10px 15px;
+    color:red;
+}
+
+#home a:hover{
+    background-color:yellowgreen;
+    color:black;
+}
