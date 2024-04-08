@@ -21,7 +21,7 @@ class jmgDancer {
     this.xRotate = 25
     this.yRotate = 50
     this.angle = 0
-    // add properties for your dancer here:
+    // add perties for your dancer here:
   }
   update() {
     this.xRotate = sin(frameCount/4) * 10
